@@ -1,3 +1,8 @@
+@font-face {
+    font-family: instaFont;
+    src: url(/assets/css/instagram-new/Demo_Fonts/Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf);
+  }
+
 *{
     padding: 0;
     margin: 0;
@@ -58,7 +63,8 @@ body {
 }
 
 .instagram-logo {
-    height: 3rem;
+    font-family: instaFont;
+    font-size: 30px;
 }
 
 .profile-photo {
